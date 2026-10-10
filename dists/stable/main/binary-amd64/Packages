@@ -32,6 +32,92 @@ SHA256: 37b10f4e63bbbd108b7f0b5ba9965bffd11f9a0c486129744c42fa1ffa1eb70d
 SHA512: 2159ed52a9ba1d8f4ea21d616d4ea8e6a68c1598461cf216a43e8767461902635d717157856bfeda8394973d743b809daa5c4cce4c1c171e007028ca6f95ab3b
 Description: Metapaquete STEM de Tobi Xu (ciencia, tecnologia, ingenieria, matematicas)
 
+Package: tobixu-desktop-gnome
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
+Filename: ./tobixu-desktop-gnome_0.1.0_all.deb
+Size: 1500
+MD5sum: 738df8a3457508a4b9427446a3297641
+SHA1: de27559e8a1dba95bf02bbc6da3edfcf81d2bd6d
+SHA256: 92bf28a1f1a0ca6d096ae40c06a41e028ef6bba30258c7f3ba3ef82af6974f04
+SHA512: 1cfc4c3aeb844b3eda7458409abb60635e6c53281cb732abb5d763226fc6a7fbe642d123de61e099996a313b3a58a6a240b21bc7049566b4c7836a130362faa6
+Description: TobiXu GNOME desktop (slim rolling release)
+ GNOME 47 con identidad TobiXu (órbita-noche, glifo, extensiones EGO)
+ más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).
+ .
+ Para instalar STEM completo: apt install tobi-xu-stem
+ Para instalar ARTS completo: apt install tobi-xu-arts
+ Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
+ Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
+
+Package: tobixu-desktop-lxqt
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: lxqt, sddm, tobixu-wallpapers, tobixu-keyboard, tobixu-sddm-theme, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts
+Filename: ./tobixu-desktop-lxqt_0.1.0_all.deb
+Size: 1324
+MD5sum: 143b3b03905db463b6b11886790757ac
+SHA1: ad7b9372c5fec73481c633ad0c1f122dbffd54d7
+SHA256: f1315d4d2c42b0d276d0b355fae91b0c7c7fcd4854d0d1e1b680b3cc8095f6ca
+SHA512: aa57fcaa1eaae3bf396330ba9b33cd9ff226a3a42bf7718b0da2c1faae0b49d15461b3cfb571654ebd90e98185eb9b73e97d71cc10c3b55a45ab716fb88824a0
+Description: TobiXu LXQt desktop (instalación opcional vía apt)
+ LXQt con identidad TobiXu (SDDM theme, wallpapers).
+ No viene en la ISO base; se instala con: apt install tobixu-desktop-lxqt
+
+Package: tobixu-desktop-plasma
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: plasma-desktop, sddm, konsole, qt-style-kvantum, tobixu-wallpapers, tobixu-keyboard, tobixu-sddm-theme, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts
+Filename: ./tobixu-desktop-plasma_0.1.0_all.deb
+Size: 1356
+MD5sum: 8a48101e6b13e2d3e69440395df57267
+SHA1: 30a6f418f45f2e372f8e62e3d2319d8042e7b840
+SHA256: 1650cf7d4e6ef387421346e36937577ef4edc02346f4e2b50d6ba174486b4bae
+SHA512: a92b09343b3b84adb203b99995df7c6117a89bdf43441306fc71ab670ab4abe51731902b3919abf36469503e90abad200b86275eee5f17d29e80b349cf277366
+Description: TobiXu Plasma desktop (instalación opcional vía apt)
+ KDE Plasma 6 con identidad TobiXu (SDDM theme, kvantum, wallpapers).
+ No viene en la ISO base; se instala con: apt install tobixu-desktop-plasma
+
+Package: tobixu-desktop-xfce
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: xfce4, lightdm, xfce4-goodies, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
+Filename: ./tobixu-desktop-xfce_0.1.0_all.deb
+Size: 1448
+MD5sum: 43fc9771f39a455d007abd44de05b36e
+SHA1: ee22dbeb4ea734b5aaea209065872f8f02542e38
+SHA256: 56f2cfce0f549af5d8871d20146576d0d41b1f95c834376444a162b51b0d2e4a
+SHA512: b104d7034ef53f5298f5f50667c7e5a9af6924c89efe11512c6ea1d9aec25966bdbe3eaa3be5dac4ec9c7a9b19bff0dde938d71cae7bc79c5709b3a137dc9ffb
+Description: TobiXu XFCE desktop (slim rolling release)
+ XFCE 4 con identidad TobiXu (wallpapers, teclados)
+ más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).
+ .
+ Para instalar STEM completo: apt install tobi-xu-stem
+ Para instalar ARTS completo: apt install tobi-xu-arts
+ Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
+ Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
+
 Package: tobixu-gnome-look
 Architecture: all
 Version: 0.1.1
