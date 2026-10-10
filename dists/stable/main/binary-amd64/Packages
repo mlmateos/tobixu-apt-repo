@@ -1,0 +1,175 @@
+Package: tobi-xu-arts
+Architecture: all
+Version: 0.1.4
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 7
+Depends: inkscape, gimp, rawtherapee, kdenlive, obs-studio, vlc, ffmpeg, audacity, jackd2, freecad, scribus, handbrake, tobixu-pulsar
+Recommends: blender, krita, ardour, musescore, lmms
+Filename: ./tobi-xu-arts_0.1.4_all.deb
+Size: 1232
+MD5sum: 244d6bb533b7c79791dd9b51e1859a76
+SHA1: 620f9905a346422d3f55418b4ee95950cbe76c37
+SHA256: 19dc20ea6348ff36b426e4fb25a280e4ea9e510b15538a30af336a539fa57ddf
+SHA512: 48fee7f9d6ad70f4031e3e89cfed60f3cdcebd6c5c209dac8e34084ce799b1862c77e88f9e7f7b76d01eea304897ff93f5e1310f6763bb09d99b81899a744e01
+Description: Metapaquete ARTS de Tobi Xu (arte, diseno, multimedia)
+
+Package: tobi-xu-stem
+Architecture: all
+Version: 0.1.3
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 7
+Depends: texstudio, frescobaldi, texlive-base, libreoffice, xournalpp, geogebra, gnuplot, python3-numpy, python3-matplotlib, python3-scipy, sqlitebrowser, pspp, lilypond, qgis-plugin-grass, grass-core, avogadro, stellarium, kstars, astrometry.net, python3-astropy, saods9, openbabel, gromacs, ugene, jalview, artemis, python3-biopython, emboss, seaview, gnucash, kmymoney, ledger, gnumeric, homebank, r-cran-quantmod, python3-pandas, gnugo, qgo, cgoban, gnuchess, xboard, sgt-puzzles
+Recommends: texlive-full, sagemath, root-system, paraview, blender, julia, r-base, octave, qgis
+Filename: ./tobi-xu-stem_0.1.3_all.deb
+Size: 1480
+MD5sum: 40515a652528ff68a8f4a0709ab7a4f8
+SHA1: f54d602965a2444c53452879eb460ae1214eb7bc
+SHA256: 37b10f4e63bbbd108b7f0b5ba9965bffd11f9a0c486129744c42fa1ffa1eb70d
+SHA512: 2159ed52a9ba1d8f4ea21d616d4ea8e6a68c1598461cf216a43e8767461902635d717157856bfeda8394973d743b809daa5c4cce4c1c171e007028ca6f95ab3b
+Description: Metapaquete STEM de Tobi Xu (ciencia, tecnologia, ingenieria, matematicas)
+
+Package: tobixu-gnome-look
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: x11
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 126
+Depends: gnome-shell, gdm3, papirus-icon-theme, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers
+Recommends: tobi-xu-desktop-gnome
+Filename: ./tobixu-gnome-look_0.1.1_all.deb
+Size: 24644
+MD5sum: dc909ecd01912bdbd62b7fb89abf5aa0
+SHA1: 2df0dd4c0bba7057dd2b8cbd9e391c3330b3e2d3
+SHA256: 723608538fd79132d10c40465e0a03baaa4b077ca64a212ab37376e1e05d07ab
+SHA512: a9a4972dc3ef36c301180c14e56fe69c26fd7366090c91cc642043565f6c7345e7b7d34bf5e86fe978f1fd062d2f6497ea913ce983d065b2c6b7170bf3f4e2b3
+Description: TobiXu GNOME identity — system seeds
+ Default look and feel for the TobiXu GNU/Linux distribution when the
+ user chooses the GNOME session. Seeds the dconf database with
+ orbita-noche wallpaper, the modified keyboard options (compose:rctrl +
+ lv3:ralt_switch), Adwaita-dark + Papirus, fractional scaling hint for
+ Wayland, and the curated favorite apps. Honors Doctrine 13: defaults
+ are seeds, not chains — the user harvests freely via gnome-tweaks or
+ dconf-editor.
+
+Package: tobixu-keyboard
+Architecture: all
+Version: 0.1.3
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 126
+Depends: xkb-data
+Filename: ./tobixu-keyboard_0.1.3_all.deb
+Size: 21156
+MD5sum: c44d5b3cb2983c11180f1d88e515b06c
+SHA1: 1f16c8f4f11c809e34a199fc9157471e1d8f6cd2
+SHA256: 98facbd18bea258ee7ba3747a932ac79cf7414939adc438d2b2c9dea3e61e9f5
+SHA512: 44bd3153d69656980fcf72c202f93848d08aa2efe9252e75ed926e92cbfb5d3ee54934da729b593922edddb28b7a0ba18a7d4435e421e6919deaa6533861f087
+Description: Teclado US modificado de TobiXu (diversion de xkb-data)
+ Instala el layout us modificado por Manuel Lopez Mateos mediante
+ dpkg-divert sobre /usr/share/X11/xkb/symbols/us, con reversa limpia
+ al remover el paquete. Funciona en X11 y en Wayland (KWin lee el
+ mismo arbol xkb al iniciar la sesion).
+
+Package: tobixu-plasma-look
+Architecture: all
+Version: 0.3.2
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 2659
+Depends: plasma-desktop, konsole
+Recommends: qt-style-kvantum
+Breaks: tobixu-iguana (<< 0.2.0)
+Replaces: tobixu-iguana (<< 0.2.0)
+Filename: ./tobixu-plasma-look_0.3.2_all.deb
+Size: 2589792
+MD5sum: 56a0ef7c0c5d8ce9f1b19d2a0f047d1d
+SHA1: 8af2992842897a90dd7a726cf21641e73c0719f2
+SHA256: 2685e07753fc8439a1973c0e18a72506fa7bc6e0049c09e726cb27e61eef78f5
+SHA512: 333ecc8cd79850f010627cce85a04d39e0c9987e55c0bb45bd20162791fa8ec442eadead0ae76693a1fe335d88e570ef13e4557242e4091cdef9a1e78418b4c9
+Description: Identidad visual de Tobi Xu para Plasma (esquema + Kvantum + Konsole + skel)
+ Paquete que absorbe la identidad visual de TobiXu: esquema de colores
+ IguanaNoche para Plasma, tema Kvantum TobiXu-Selva, perfil de Konsole
+ IguanaNoche, y configuraciones del skel (kdeglobals, kscreenlockerrc,
+ kvantum.kvconfig). Reemplaza y jubila a tobixu-iguana (0.1.0), que
+ era un monolito artesanal construido con dpkg-deb --build.
+
+Package: tobixu-plymouth-theme
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 2525
+Depends: plymouth
+Filename: ./tobixu-plymouth-theme_0.1.2_all.deb
+Size: 2572876
+MD5sum: d352757a1590eec79341a378fad76f94
+SHA1: 944cdd7ca5ef390f74c665550c61012d5a82a6a7
+SHA256: 4242715a22c4424bb0bcfe44910d1a4d07ddafc3534e1b745b50674821c71861
+SHA512: 000096551bedadd3f784fe6a80ed5f9db8acf871a90737f0766562a410c1eed7775cae360a9df53bf7cf27ab8ae9ccffffd19947f924f1bf92d7d5c41d911dd5
+Description: Velo de arranque de Tobi Xu (tema plymouth script)
+ Tema de Plymouth con orbita-noche a pantalla completa y el glifo
+ dorado centrado. El postinst lo activa con plymouth-set-default-theme
+ y lo hornea al initramfs (update-initramfs -u); al removerlo, el
+ sistema vuelve al tema de Debian sin residuos.
+
+Package: tobixu-pulsar
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 16
+Depends: wget, sudo
+Filename: ./tobixu-pulsar_0.1.0_all.deb
+Size: 1672
+MD5sum: b620174601d72934913eea7db91e69af
+SHA1: 96d041ca2019a67bef649c7b8a725228b401818b
+SHA256: 717b2ed0baabc893ce3b481bee815b90fe04f9d250aa5b1480b0e3db9dd4e47f
+SHA512: 703d8b3556a0b97ca5abd0b4b064033b644934a90be63d4ca7c84a1b4c2cb3455e56ce1f802f288d094b23f5b982ddb36673856a4a867f05ab5a774839aaa0a1
+Description: Wrapper de instalacion de Pulsar (primer arranque)
+
+Package: tobixu-sddm-theme
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 2535
+Depends: sddm
+Filename: ./tobixu-sddm-theme_0.5.0_all.deb
+Size: 2574564
+MD5sum: 5b49e96484422e65a561519bd512cf16
+SHA1: 7ba2068f181b7303bbd57727802715030de6b3d7
+SHA256: 7404c52099464deb5040ac43c9c89800ff4273517709756dc7d57af6465c72c4
+SHA512: 73a1c4eb1946499d962894abc0943580b0d149907f83d2528c30777f00b19da28035aca650c820da4411fb305bac02946e080d2bb04deb190573d4257d32f321
+Description: Puerta selva de Tobi Xu (tema SDDM con glifo y orbita-noche)
+ Tema del greeter de TobiXu: glifo sobre orbita-noche, tarjeta de
+ login y botones de poder. Incluye el drop-in de sddm.conf.d que lo
+ activa (Current=tobixu); al remover el paquete, SDDM vuelve al tema
+ por defecto sin residuos.
+
+Package: tobixu-wallpapers
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: graphics
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 2506
+Filename: ./tobixu-wallpapers_0.1.0_all.deb
+Size: 2554484
+MD5sum: 38aaa1b7371842dc1478f4c74ced775f
+SHA1: 6de0c2fea2a05b64d8d9494dacbce0003e171b89
+SHA256: 421c25e0e62e7cab983111d4fcbcdcfd73c08438e2223e1190b301252e625dbf
+SHA512: 2f56e0e05cc31daf2ba51fb502239936342aab8ab574fc9be37cc94889dc675921689cce311806e1fc7d9807691e0b8dc5526dfdfff3d976599d44f2214b02a9
+Description: Fondos de pantalla TobiXu (orbita-noche)
+ Wallpaper por defecto de TobiXu sicaru: orbita-noche en SVG y como
+ paquete de wallpaper de Plasma (metadata.desktop e imagenes).
+
