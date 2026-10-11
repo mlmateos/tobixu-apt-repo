@@ -6,20 +6,20 @@ Version: 0.1
 Architectures: amd64 all
 Components: main
 Description: TobiXu rolling release repository
-Date: Sun, 11 Oct 2026 00:39:02 +0000
+Date: Sun, 11 Oct 2026 00:40:07 +0000
 MD5Sum:
- b86b400bcfdb253e06367598fb225aab              200 Release
+ 7b6ed1523e67eea06eacb4591e12caa9              200 Release
  b85c022fe65afe24442057934add84f0            15756 main/binary-amd64/Packages
- a21bc847031e3c180fac993f8eb8a808             5688 main/binary-amd64/Packages.gz
+ cefad00fae338de8511d48d8c6080ec7             5688 main/binary-amd64/Packages.gz
 SHA1:
- 2b97d49b1cf22c83113fccf021a749629c2a229e              200 Release
+ 531b99b66487f5b111808976d8b63cdd96d78964              200 Release
  67fffbfd983d054ae654fd677827ca3bef402738            15756 main/binary-amd64/Packages
- e36eb27fb609410e96b74492e4cb6d74450c9a39             5688 main/binary-amd64/Packages.gz
+ 8b93b9829928dc3504bd6f39b901ed1eadbddfd5             5688 main/binary-amd64/Packages.gz
 SHA256:
- 82624c517645297efbcf48b48ce1d7955f3c225c69b88b86033b3a1225ae2ed0              200 Release
+ ccda13396145988cae7d2ee807929ee1ddf420c22145266716d6bedd0a2d1d52              200 Release
  627a90de4ac2803093d3176dd73aac9e61127cfe8126e2e3b81d04cf6055a609            15756 main/binary-amd64/Packages
- f453f58b1cd4657b7214e1b624115c004769d11be9e865b8c75615f6d8dc1b6b             5688 main/binary-amd64/Packages.gz
+ 7cc5ab72b07cd082fbb73c5857ca6a3d672dc66e54b752f6540cd76e0d63bc35             5688 main/binary-amd64/Packages.gz
 SHA512:
- c8e12474690efbac63e6b0bddb7b55e25cf6dea614b7b045cf4eaa95ca63f2397706ef5b8d88600d299d0bf895f1f22461bccf3779df4870f0d566729b43bb6d              200 Release
+ 105cb83e32a1f38ea2eeeeb9307e28705ac75b1c2db594597cbb7bdaeed04cb922b2eadf1e6168773ffd965d290c21caf6a2f09246db671d81d88ed3c42c02e0              200 Release
  8aca5f76a17b0aba446f085d0a7cbd126753c84a6b57917707da760ee8a62541f59437a0f72d5191a80a1d1f53f72f3f666d89b818b199cf62bee2c538cd4ffc            15756 main/binary-amd64/Packages
- 19a88c1950685b2bdd45e20e91830ee33565285b31a30b240dacc2f3c4577565f51499e1df0e7acc3be2a466dcc969195c217c8de0c5907bae4a76945a4a68dd             5688 main/binary-amd64/Packages.gz
+ 0adf3a75523486d9ebaecd1648f9b609dd0838ffd9c1b1789ae1c5b18e1903728cfcc5c320ad102c3f78bfb629b80679a7fa4e7b58d390964ab9a7de6a3c2d8a             5688 main/binary-amd64/Packages.gz
