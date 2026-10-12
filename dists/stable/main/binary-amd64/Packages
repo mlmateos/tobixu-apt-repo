@@ -80,6 +80,30 @@ Description: TobiXu GNOME desktop (slim rolling release)
  Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
  Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
 
+Package: tobixu-desktop-gnome
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
+Filename: ./tobixu-desktop-gnome_0.1.2_all.deb
+Size: 1764
+MD5sum: 81d1db4ca5d9a74e8d2340b46d67aec5
+SHA1: 6414a7f47a171facc986e0d0778943e6c1ecc31a
+SHA256: 71b276c3efb4cb6a5223689415e4ac269fe0816ecc865d624f25a246c4ff78b3
+SHA512: a6285c362f7aa06bbb2219734e40f2e0813b0603291597c9ab00900a7c83d18fed00f0785f2930c6b88418b71bcd554f8ca7b750beb59c71af4a1c5a67504bb0
+Description: TobiXu GNOME desktop (slim rolling release)
+ GNOME 47 con identidad TobiXu (órbita-noche, glifo, extensiones EGO)
+ más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).
+ .
+ Para instalar STEM completo: apt install tobi-xu-stem
+ Para instalar ARTS completo: apt install tobi-xu-arts
+ Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
+ Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
+
 Package: tobixu-desktop-lxqt
 Architecture: all
 Version: 0.1.0
@@ -157,6 +181,30 @@ MD5sum: 17e397e443544b7948ffb2f2f22adb83
 SHA1: c301553008dfd0ec148fe9ee4c0d86741cf5c75b
 SHA256: 1acb55d7913e0447c0f4348ae6b0d66b88a7d63f2aec4f3c33cf798a9d709d72
 SHA512: b52c46473b733fd401d23c16d959212a9c8f7a42778ad54f4d508b8e4e9c9c3199e4ec5fcf31496f45b7af51bd82e7664d6881cf725305a96a845346d6f71c65
+Description: TobiXu XFCE desktop (slim rolling release)
+ XFCE 4 con identidad TobiXu (wallpapers, teclados)
+ más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).
+ .
+ Para instalar STEM completo: apt install tobi-xu-stem
+ Para instalar ARTS completo: apt install tobi-xu-arts
+ Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
+ Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
+
+Package: tobixu-desktop-xfce
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: metapackages
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 7
+Depends: xfce4, lightdm, xfce4-goodies, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
+Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
+Filename: ./tobixu-desktop-xfce_0.1.2_all.deb
+Size: 1756
+MD5sum: 38053ecfdab4c2da40b6f4342ab92891
+SHA1: 7d40dee524a8bb38c3428a65618265ec972edf08
+SHA256: fa9a1819ea42fbab7c5427debb9453af17b3af3631a5669ae95692c5fcc44324
+SHA512: 4bdd9a60686cef47d6548149d6935a0306e76ef2acfbcf49a64425a39d8b65eac9c7758950d5459a21c4e659a22d1219ec7a334b27a35022a545555f012e213d
 Description: TobiXu XFCE desktop (slim rolling release)
  XFCE 4 con identidad TobiXu (wallpapers, teclados)
  más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).

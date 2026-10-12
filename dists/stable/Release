@@ -6,20 +6,20 @@ Version: 0.1
 Architectures: amd64 all
 Components: main
 Description: TobiXu rolling release repository
-Date: Sun, 11 Oct 2026 00:40:07 +0000
+Date: Mon, 12 Oct 2026 00:09:26 +0000
 MD5Sum:
- 7b6ed1523e67eea06eacb4591e12caa9              200 Release
- b85c022fe65afe24442057934add84f0            15756 main/binary-amd64/Packages
- cefad00fae338de8511d48d8c6080ec7             5688 main/binary-amd64/Packages.gz
+ a1d9fedde88c7d7cf9f77466f1bad298              200 Release
+ 646a96f98aeb581d6790460b409b009d            18226 main/binary-amd64/Packages
+ f0c331ddba99a87a75c924baa86e3972             6088 main/binary-amd64/Packages.gz
 SHA1:
- 531b99b66487f5b111808976d8b63cdd96d78964              200 Release
- 67fffbfd983d054ae654fd677827ca3bef402738            15756 main/binary-amd64/Packages
- 8b93b9829928dc3504bd6f39b901ed1eadbddfd5             5688 main/binary-amd64/Packages.gz
+ 6793876adcae120f280c41fe13bf923100d18f14              200 Release
+ a05505a8e8c7148ba76895490c52417534cde18e            18226 main/binary-amd64/Packages
+ d693576e9c70430bf9326f32ace057299eb47ef6             6088 main/binary-amd64/Packages.gz
 SHA256:
- ccda13396145988cae7d2ee807929ee1ddf420c22145266716d6bedd0a2d1d52              200 Release
- 627a90de4ac2803093d3176dd73aac9e61127cfe8126e2e3b81d04cf6055a609            15756 main/binary-amd64/Packages
- 7cc5ab72b07cd082fbb73c5857ca6a3d672dc66e54b752f6540cd76e0d63bc35             5688 main/binary-amd64/Packages.gz
+ 6f318e35ce843c026ebe9ef809da3ab7ee9a20826c526422f906be86ebb15e0b              200 Release
+ af7c886d4706d22fe66aa2d1e583b6576d3f6cade712d8f1ca33ba7677d07065            18226 main/binary-amd64/Packages
+ 95e94e2f36b2b22178217b1a3d80561d105ab2ec6bb7c0d7855f8367cf809924             6088 main/binary-amd64/Packages.gz
 SHA512:
- 105cb83e32a1f38ea2eeeeb9307e28705ac75b1c2db594597cbb7bdaeed04cb922b2eadf1e6168773ffd965d290c21caf6a2f09246db671d81d88ed3c42c02e0              200 Release
- 8aca5f76a17b0aba446f085d0a7cbd126753c84a6b57917707da760ee8a62541f59437a0f72d5191a80a1d1f53f72f3f666d89b818b199cf62bee2c538cd4ffc            15756 main/binary-amd64/Packages
- 0adf3a75523486d9ebaecd1648f9b609dd0838ffd9c1b1789ae1c5b18e1903728cfcc5c320ad102c3f78bfb629b80679a7fa4e7b58d390964ab9a7de6a3c2d8a             5688 main/binary-amd64/Packages.gz
+ 1d694f3feb1546bded485ad19d53b5f0d09ff5ae74c1ab2897964139798a897b692bb08cce7e885895901189b63894d702b4048d4d825dfe6a9644bb8a5ffc2e              200 Release
+ b8a8856af27301f25671b673c67cc7079465a15321fe640bea7a83cae8377157f931517e68e7d11f3f52e33c50e421406307e556ed12197a159cde2b73bc36c8            18226 main/binary-amd64/Packages
+ cb2c6cba126743efac431e142cec191652a65a910e9d95730fbee796da713e5b586e0fe62854e76809d8a94c1d7a70e60b65e090bb607f48a176f7bbe2f88c7a             6088 main/binary-amd64/Packages.gz
