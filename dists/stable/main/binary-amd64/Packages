@@ -87,22 +87,15 @@ Priority: optional
 Section: metapackages
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
-Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
-Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
+Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, accounts-daemon, tobixu-gnome-look, tobixu-wallpapers, tobixu-keyboard, firefox-esr, thunderbird, vlc
 Filename: ./tobixu-desktop-gnome_0.1.2_all.deb
-Size: 1764
-MD5sum: 81d1db4ca5d9a74e8d2340b46d67aec5
-SHA1: 6414a7f47a171facc986e0d0778943e6c1ecc31a
-SHA256: 71b276c3efb4cb6a5223689415e4ac269fe0816ecc865d624f25a246c4ff78b3
-SHA512: a6285c362f7aa06bbb2219734e40f2e0813b0603291597c9ab00900a7c83d18fed00f0785f2930c6b88418b71bcd554f8ca7b750beb59c71af4a1c5a67504bb0
+Size: 1624
+MD5sum: 953964c1f7cb5b92622acae7b9bcfff2
+SHA1: f9c34fc1911fd82e484ab3e0a50e43bbbe1fc958
+SHA256: ab6475c918a2878c3bb1644cefee0ffc9d7358438e22e40d275a6976b4340c87
+SHA512: bbfbf47c6a88300cbafc21f068193221a09acec797e0fc724bc18340f4a4419a44f49114b22f78ec293dc9bf2212dabe549dd5747b715078bb2fef73b1f95648
 Description: TobiXu GNOME desktop (slim rolling release)
- GNOME 47 con identidad TobiXu (órbita-noche, glifo, extensiones EGO)
- más aplicaciones base (Texstudio, Frescobaldi, Lilypond, LibreOffice).
- .
- Para instalar STEM completo: apt install tobi-xu-stem
- Para instalar ARTS completo: apt install tobi-xu-arts
- Para instalar Plasma como alternativa: apt install tobixu-desktop-plasma
- Para instalar LXQt como alternativa: apt install tobixu-desktop-lxqt
+ GNOME 47 con identidad TobiXu.
 
 Package: tobixu-desktop-lxqt
 Architecture: all
@@ -238,6 +231,30 @@ Description: TobiXu GNOME identity — system seeds
  are seeds, not chains — the user harvests freely via gnome-tweaks or
  dconf-editor.
 
+Package: tobixu-gnome-look
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: x11
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
+Installed-Size: 128
+Depends: gnome-shell, gdm3, papirus-icon-theme, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers
+Recommends: tobi-xu-desktop-gnome
+Filename: ./tobixu-gnome-look_0.1.2_all.deb
+Size: 24788
+MD5sum: 39497d62ddced1b37c2023b451e3a756
+SHA1: 2bf3e04ecc771fff94243187f534df0ab7c62464
+SHA256: 11c556ed290924fce518f8002397a3913c80369192b36a1af8686070834ea647
+SHA512: 979534657d56d303432636c402f9f3e28013f06592ca7fd2d6ab1111c2943bf51bbf4040a49533641c7634aed08e51963d9773ad74251ae554174e3d33732463
+Description: TobiXu GNOME identity — system seeds
+ Default look and feel for the TobiXu GNU/Linux distribution when the
+ user chooses the GNOME session. Seeds the dconf database with
+ orbita-noche wallpaper, the modified keyboard options (compose:rctrl +
+ lv3:ralt_switch), Adwaita-dark + Papirus, fractional scaling hint for
+ Wayland, and the curated favorite apps. Honors Doctrine 13: defaults
+ are seeds, not chains — the user harvests freely via gnome-tweaks or
+ dconf-editor.
+
 Package: tobixu-keyboard
 Architecture: all
 Version: 0.1.3
@@ -252,6 +269,26 @@ MD5sum: c44d5b3cb2983c11180f1d88e515b06c
 SHA1: 1f16c8f4f11c809e34a199fc9157471e1d8f6cd2
 SHA256: 98facbd18bea258ee7ba3747a932ac79cf7414939adc438d2b2c9dea3e61e9f5
 SHA512: 44bd3153d69656980fcf72c202f93848d08aa2efe9252e75ed926e92cbfb5d3ee54934da729b593922edddb28b7a0ba18a7d4435e421e6919deaa6533861f087
+Description: Teclado US modificado de TobiXu (diversion de xkb-data)
+ Instala el layout us modificado por Manuel Lopez Mateos mediante
+ dpkg-divert sobre /usr/share/X11/xkb/symbols/us, con reversa limpia
+ al remover el paquete. Funciona en X11 y en Wayland (KWin lee el
+ mismo arbol xkb al iniciar la sesion).
+
+Package: tobixu-keyboard
+Architecture: all
+Version: 0.1.4
+Priority: optional
+Section: utils
+Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
+Installed-Size: 132
+Depends: xkb-data
+Filename: ./tobixu-keyboard_0.1.4_all.deb
+Size: 22884
+MD5sum: f10f99442c8cc7581a00c928326ff378
+SHA1: 79883d724713b7f2f805dadd59289ffe818cb216
+SHA256: f872809b4d397e2df9c56784aa2edb031d747448b5105fd5a5ffca1721ab6cc8
+SHA512: 1b7984d143647b908ea7dd60de1f9f00a337310d7a2755a166b87740cc21e7bdd286b98b704bf6b72acb7cea5ccc0e512e9fcfd856a62b72595fb04f1e292269
 Description: Teclado US modificado de TobiXu (diversion de xkb-data)
  Instala el layout us modificado por Manuel Lopez Mateos mediante
  dpkg-divert sobre /usr/share/X11/xkb/symbols/us, con reversa limpia
