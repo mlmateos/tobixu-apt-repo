@@ -7,7 +7,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 7
 Depends: inkscape, gimp, rawtherapee, kdenlive, obs-studio, vlc, ffmpeg, audacity, jackd2, freecad, scribus, handbrake, tobixu-pulsar
 Recommends: blender, krita, ardour, musescore, lmms
-Filename: ./tobi-xu-arts_0.1.4_all.deb
+Filename: pool/tobi-xu-arts_0.1.4_all.deb
 Size: 1232
 MD5sum: 244d6bb533b7c79791dd9b51e1859a76
 SHA1: 620f9905a346422d3f55418b4ee95950cbe76c37
@@ -24,7 +24,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 7
 Depends: texstudio, frescobaldi, texlive-base, libreoffice, xournalpp, geogebra, gnuplot, python3-numpy, python3-matplotlib, python3-scipy, sqlitebrowser, pspp, lilypond, qgis-plugin-grass, grass-core, avogadro, stellarium, kstars, astrometry.net, python3-astropy, saods9, openbabel, gromacs, ugene, jalview, artemis, python3-biopython, emboss, seaview, gnucash, kmymoney, ledger, gnumeric, homebank, r-cran-quantmod, python3-pandas, gnugo, qgo, cgoban, gnuchess, xboard, sgt-puzzles
 Recommends: texlive-full, sagemath, root-system, paraview, blender, julia, r-base, octave, qgis
-Filename: ./tobi-xu-stem_0.1.3_all.deb
+Filename: pool/tobi-xu-stem_0.1.3_all.deb
 Size: 1480
 MD5sum: 40515a652528ff68a8f4a0709ab7a4f8
 SHA1: f54d602965a2444c53452879eb460ae1214eb7bc
@@ -41,7 +41,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
-Filename: ./tobixu-desktop-gnome_0.1.0_all.deb
+Filename: pool/tobixu-desktop-gnome_0.1.0_all.deb
 Size: 1500
 MD5sum: 738df8a3457508a4b9427446a3297641
 SHA1: de27559e8a1dba95bf02bbc6da3edfcf81d2bd6d
@@ -65,7 +65,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, accounts-daemon, tobixu-gnome-look, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
-Filename: ./tobixu-desktop-gnome_0.1.1_all.deb
+Filename: pool/tobixu-desktop-gnome_0.1.1_all.deb
 Size: 1596
 MD5sum: 6e00355e1e93c27f15c555c1ca849859
 SHA1: 362f6a7aef5872751054e8e88a933bcc8f1149d8
@@ -88,7 +88,7 @@ Section: metapackages
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: gnome-shell, gdm3, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, accounts-daemon, tobixu-gnome-look, tobixu-wallpapers, tobixu-keyboard, firefox-esr, thunderbird, vlc
-Filename: ./tobixu-desktop-gnome_0.1.2_all.deb
+Filename: pool/tobixu-desktop-gnome_0.1.2_all.deb
 Size: 1624
 MD5sum: 953964c1f7cb5b92622acae7b9bcfff2
 SHA1: f9c34fc1911fd82e484ab3e0a50e43bbbe1fc958
@@ -106,7 +106,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: lxqt, sddm, tobixu-wallpapers, tobixu-keyboard, tobixu-sddm-theme, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts
-Filename: ./tobixu-desktop-lxqt_0.1.0_all.deb
+Filename: pool/tobixu-desktop-lxqt_0.1.0_all.deb
 Size: 1324
 MD5sum: 143b3b03905db463b6b11886790757ac
 SHA1: ad7b9372c5fec73481c633ad0c1f122dbffd54d7
@@ -125,7 +125,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: plasma-desktop, sddm, konsole, qt-style-kvantum, tobixu-wallpapers, tobixu-keyboard, tobixu-sddm-theme, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts
-Filename: ./tobixu-desktop-plasma_0.1.0_all.deb
+Filename: pool/tobixu-desktop-plasma_0.1.0_all.deb
 Size: 1356
 MD5sum: 8a48101e6b13e2d3e69440395df57267
 SHA1: 30a6f418f45f2e372f8e62e3d2319d8042e7b840
@@ -144,7 +144,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: xfce4, lightdm, xfce4-goodies, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
-Filename: ./tobixu-desktop-xfce_0.1.0_all.deb
+Filename: pool/tobixu-desktop-xfce_0.1.0_all.deb
 Size: 1448
 MD5sum: 43fc9771f39a455d007abd44de05b36e
 SHA1: ee22dbeb4ea734b5aaea209065872f8f02542e38
@@ -168,7 +168,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: xfce4, xfce4-goodies, accounts-daemon, tobixu-xfce-look, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
-Filename: ./tobixu-desktop-xfce_0.1.1_all.deb
+Filename: pool/tobixu-desktop-xfce_0.1.1_all.deb
 Size: 1584
 MD5sum: 17e397e443544b7948ffb2f2f22adb83
 SHA1: c301553008dfd0ec148fe9ee4c0d86741cf5c75b
@@ -192,7 +192,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: xfce4, lightdm, xfce4-goodies, tobixu-wallpapers, tobixu-keyboard, texstudio, texlive-base, frescobaldi, lilypond, libreoffice
 Recommends: tobi-xu-stem, tobi-xu-arts, tobixu-desktop-plasma, tobixu-desktop-lxqt
-Filename: ./tobixu-desktop-xfce_0.1.2_all.deb
+Filename: pool/tobixu-desktop-xfce_0.1.2_all.deb
 Size: 1756
 MD5sum: 38053ecfdab4c2da40b6f4342ab92891
 SHA1: 7d40dee524a8bb38c3428a65618265ec972edf08
@@ -216,7 +216,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 126
 Depends: gnome-shell, gdm3, papirus-icon-theme, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers
 Recommends: tobi-xu-desktop-gnome
-Filename: ./tobixu-gnome-look_0.1.1_all.deb
+Filename: pool/tobixu-gnome-look_0.1.1_all.deb
 Size: 24644
 MD5sum: dc909ecd01912bdbd62b7fb89abf5aa0
 SHA1: 2df0dd4c0bba7057dd2b8cbd9e391c3330b3e2d3
@@ -240,7 +240,7 @@ Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 128
 Depends: gnome-shell, gdm3, papirus-icon-theme, gnome-tweaks, gnome-shell-extension-appindicator, gnome-shell-extension-dashtodock, tobixu-wallpapers
 Recommends: tobi-xu-desktop-gnome
-Filename: ./tobixu-gnome-look_0.1.2_all.deb
+Filename: pool/tobixu-gnome-look_0.1.2_all.deb
 Size: 24788
 MD5sum: 39497d62ddced1b37c2023b451e3a756
 SHA1: 2bf3e04ecc771fff94243187f534df0ab7c62464
@@ -263,7 +263,7 @@ Section: utils
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 126
 Depends: xkb-data
-Filename: ./tobixu-keyboard_0.1.3_all.deb
+Filename: pool/tobixu-keyboard_0.1.3_all.deb
 Size: 21156
 MD5sum: c44d5b3cb2983c11180f1d88e515b06c
 SHA1: 1f16c8f4f11c809e34a199fc9157471e1d8f6cd2
@@ -283,7 +283,7 @@ Section: utils
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 132
 Depends: xkb-data
-Filename: ./tobixu-keyboard_0.1.4_all.deb
+Filename: pool/tobixu-keyboard_0.1.4_all.deb
 Size: 22884
 MD5sum: f10f99442c8cc7581a00c928326ff378
 SHA1: 79883d724713b7f2f805dadd59289ffe818cb216
@@ -306,7 +306,7 @@ Depends: plasma-desktop, konsole
 Recommends: qt-style-kvantum
 Breaks: tobixu-iguana (<< 0.2.0)
 Replaces: tobixu-iguana (<< 0.2.0)
-Filename: ./tobixu-plasma-look_0.3.2_all.deb
+Filename: pool/tobixu-plasma-look_0.3.2_all.deb
 Size: 2589792
 MD5sum: 56a0ef7c0c5d8ce9f1b19d2a0f047d1d
 SHA1: 8af2992842897a90dd7a726cf21641e73c0719f2
@@ -327,7 +327,7 @@ Section: utils
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 2525
 Depends: plymouth
-Filename: ./tobixu-plymouth-theme_0.1.2_all.deb
+Filename: pool/tobixu-plymouth-theme_0.1.2_all.deb
 Size: 2572876
 MD5sum: d352757a1590eec79341a378fad76f94
 SHA1: 944cdd7ca5ef390f74c665550c61012d5a82a6a7
@@ -347,7 +347,7 @@ Section: utils
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 16
 Depends: wget, sudo
-Filename: ./tobixu-pulsar_0.1.0_all.deb
+Filename: pool/tobixu-pulsar_0.1.0_all.deb
 Size: 1672
 MD5sum: b620174601d72934913eea7db91e69af
 SHA1: 96d041ca2019a67bef649c7b8a725228b401818b
@@ -363,7 +363,7 @@ Section: utils
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 2535
 Depends: sddm
-Filename: ./tobixu-sddm-theme_0.5.0_all.deb
+Filename: pool/tobixu-sddm-theme_0.5.0_all.deb
 Size: 2574564
 MD5sum: 5b49e96484422e65a561519bd512cf16
 SHA1: 7ba2068f181b7303bbd57727802715030de6b3d7
@@ -382,7 +382,7 @@ Priority: optional
 Section: graphics
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.org>
 Installed-Size: 2506
-Filename: ./tobixu-wallpapers_0.1.0_all.deb
+Filename: pool/tobixu-wallpapers_0.1.0_all.deb
 Size: 2554484
 MD5sum: 38aaa1b7371842dc1478f4c74ced775f
 SHA1: 6de0c2fea2a05b64d8d9494dacbce0003e171b89
@@ -400,7 +400,7 @@ Section: metapackages
 Maintainer: Manuel Lopez Mateos <mlmateos@tobixu.xyz>
 Installed-Size: 7
 Depends: tobixu-wallpapers, papirus-icon-theme, xfce4-panel, xfwm4-themes
-Filename: ./tobixu-xfce-look_0.1.0_all.deb
+Filename: pool/tobixu-xfce-look_0.1.0_all.deb
 Size: 1268
 MD5sum: ee0eb35d97e2190ca237509394fbb2f9
 SHA1: ab1d7385d9a8385e2ff08281889dbdf1054ea546
