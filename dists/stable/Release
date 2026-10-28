@@ -1,17 +1,24 @@
-Date: Wed, 21 Oct 2026 21:03:12 +0000
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Wed, 28 Oct 2026 01:24:50 +0000
+Description: TobiXu APT Repository
+Label: TobiXu Rolling
+Origin: TobiXu
+Suite: stable
 MD5Sum:
- 4d160606075a3a831e6bc4bf13f3f151             1417 Release
+ 5ac6c551c602cde556bbab2157322666              179 Release
  60f435f12f2603235e93d968c2978b6f            16278 main/binary-amd64/Packages
  7f7c535a5f321179cc31642bf6295a99             5869 main/binary-amd64/Packages.gz
 SHA1:
- 67b148daa897b6e16f5e1942bccba5bb3f9e4a0d             1417 Release
+ 34a2a4862f7625bda207ba25912c2beda8c64ba3              179 Release
  bc9f9908236443fdf830bf545d20212e1fd2d6f4            16278 main/binary-amd64/Packages
  ba0e86980007721b654576ab85503b2fd77d7c7a             5869 main/binary-amd64/Packages.gz
 SHA256:
- f71fab1ed1f86fcc6a1cda7f8622b52c71987de91cb63fb898e8849a3445dedd             1417 Release
+ 144475255087f98e27c4c16b1fa658bbb9ebf2d8b2f5daa6a8274694adeb235d              179 Release
  52ba90b705cfdc51b85a3dbebc3f0d71233f886ee60febba58c42d874f8b7934            16278 main/binary-amd64/Packages
  ca3b808eda6f8b137373b45cd839548df9d8a64feaefff96b6402e4343d0a88e             5869 main/binary-amd64/Packages.gz
 SHA512:
- 20e6ad9126b7b24015ae1351b97176683d3318f063c19188b9b22a673e4bc6432572a189e2bf1a993a2fe5467ea23e5e202a63b4c5f8ae24ab7850b8aa81e05c             1417 Release
+ 7ea0b5fd250aac19bbbd5cc68eb3e6be52d5c2de5b7fad217a4eac00d8f1137f90b2008e2f41b9085d559ce2de22cbff7903e202fe902be7ca753e8aae56dfaf              179 Release
  2488aeacf2a0a7631168d41c2939f1d24458fb72ecce8751a3553aac3cc85a348cf9a88c0e737f0a923343a11ed4550fa01b008ad1ffdf322254bc7ae6db1628            16278 main/binary-amd64/Packages
  0245451854a17ead8e133cb72b6e95b9aad29992979959108fec66d0f23d9af9ec03e17d975a425b7d76397ebdb17165ef689346073759f2cea12d19912ce0eb             5869 main/binary-amd64/Packages.gz
